@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none
+}
+
+a {
+    color: inherit;
+}
+
+@font-face {
+    font-family: main;
+    src: url(../fonts/proxima/proxima.eot), url(../fonts/proxima/proxima86d7.eot?iefix) format('embedded-opentype'), url(../fonts/proxima/proxima86d7.ttf?iefix) format('truetype'), url(../fonts/proxima/proxima.woff) format('woff'), url(../fonts/proxima/proxima.woff2) format('woff2'), url(../fonts/proxima/proxima.otf) format('opentype')
+}
+
+@font-face {
+    font-family: main-semi;
+    src: url(../fonts/proxima-semi/proxima-semi.eot), url(../fonts/proxima-semi/proxima-semi86d7.eot?iefix) format('embedded-opentype'), url(../fonts/proxima-semi/proxima-semi86d7.ttf?iefix) format('truetype'), url(../fonts/proxima-semi/proxima-semi.woff) format('woff'), url(../fonts/proxima-semi/proxima-semi.woff2) format('woff2'), url(../fonts/proxima-semi/proxima-semi.otf) format('opentype')
+}
+
+@font-face {
+    font-family: main-bold;
+    src: url(../fonts/house/house.eot), url(../fonts/house/house86d7.eot?iefix) format('embedded-opentype'), url(../fonts/house/house86d7.ttf?iefix) format('truetype'), url(../fonts/house/house.woff) format('woff'), url(../fonts/house/house.woff2) format('woff2'), url(../fonts/house/house.otf) format('opentype');
+    font-weight: 700
+}
+
+h1 {
+    font-family: main-bold, sans-serif
+}
+
+h2 {
+    font-size: 35px;
+    font-family: main-bold, sans-serif
+}
+
+h3 {
+    font-size: 22px;
+    font-family: main-bold, sans-serif
+}
+
+h4 {
+    font-size: 20px;
+    font-family: main-semi;
+}
+
+p {}
+
+span {
+    font-size: 15px;
+    font-family: main-bold, sans-serif
+}
+
+.pageWrapper {
+    background-image: url(../img/vbucks.png);
+    background-image: url(../img/1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    overflow: auto;
+    background-color: #4523F6;
+}
+header{
+    background-position: center;
+    background-image: url(../img/vbucks.png);
+    background-repeat: no-repeat;
+}
+.header__inner {
+    position: static;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 60px
+}
+
+.header__title_href {
+    text-transform: uppercase;
+    font-family: main-bold, sans-serif;
+    font-size: 30px;
+    -webkit-transition: .3s;
+    transition: .3s
+}
+
+.header__title_href:hover {
+    color: #ff0
+}
+
+.headerMenu__item {
+    font-size: 16px;
+    font-family: main-semi, sans-serif;
+    -webkit-transition: .3s;
+    transition: .3s;
+    margin-right: 30px
+}
+
+.headerMenu__item:hover {
+    color: #ff0;
+}
+
+.header__purchase_href {
+    font-family: main-semi, sans-serif;
+    -webkit-transition: .3s;
+    transition: .3s
+}
+
+.header__purchase_href {
+    font-size: 15px;
+}
+
+.header__purchase_href:hover {
+    color: #ff0;
+}
+
+.topAccs {
+    position: relative;
+    padding: 182px 0px 100px
+}
+
+.topAccs__inner {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topAccs__bgc {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topAccsItem {
+    -webkit-transition: .3s;
+    transition: .3s;
+    margin-top: 270px;
+    position: absolute;
+    display: inline-block;
+    width: 624px;
+    height: 187px;
+    background-color: #f6d53b;
+}
+
+.topAccsItem:hover {
+    -webkit-transform: translateY(-11px);
+    -ms-transform: translateY(-11px);
+    transform: translateY(-11px)
+}
+
+.topAccsItem img {
+    position: absolute;
+    right: 0;
+}
+
+.topAccsItem a {
+    font-size: 15px;
+    font-family: main-bold, sans-serif;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    bottom: 0%;
+    position: absolute;
+}
+
+.topAccsItem__title {
+    line-height: 187px;
+    text-align: center;
+}
+
+/* .topAccsItemg {
+    float: left;
+    -webkit-transition: .3s;
+    transition: .3s;
+    margin-top: 270px;
+    position: absolute;
+    display: inline-block;
+    width: 403px;
+    height: 157px;
+    background-color: #49d442;
+} */
+
+.accs__inner {
+    margin-top: 5px;
+    margin: 0 auto;
+    padding-left: 100px;
+    padding-right: 30px
+}
+
+.accs_title {
+    margin-right: 42px;
+    float: left;
+}
+
+.accs_titled {}
+
+.accs_description {
+   
+}
+
+a,
+body,
+button,
+html {
+    font-family: main, Arial, sans-serif;
+    font-size: 12px;
+    color: #fff
+}
+
+a,
+body,
+button,
+html {
+    font-family: main, Arial, sans-serif;
+    font-size: 12px;
+    color: #fff
+}
+
+a,
+body,
+button,
+html {
+    font-family: main, Arial, sans-serif;
+    font-size: 12px;
+    color: #fff
+}
+
+a,
+body,
+button {
+    font-family: main, Arial, sans-serif;
+    font-size: 12px;
+    color: #fff
+}
+
+p {
+    margin-top: 10px;
+    font-size: 15px;
+}
+main{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.accs__inner h4 {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: lighter;
+
+}
+
+.accs__inner h4:hover {
+    color: #ff3;
+    border-bottom: 1px dashed #ff3;
+    cursor: pointer;
+
+}
+.accs__items{
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;
+}
+.accsItem {
+
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 30px
+}
+.accsItem img{
+    -webkit-animation: 1s infinite pulse;
+    animation: 1s infinite pulse;
+}
+.accsItem__inner{
+    display: inline-block;
+
+}
+.itemDescription{
+    position: absolute;
+    font-size: 30px;
+}
+.item2{
+    margin-left: 170px;
+}
+.item3{
+    margin-left: 160px;
+}
+.item1{
+    background-color: #F7CD57;
+    position: absolute;
+    width: 457px;
+    height: 242px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    align-items: center;
+    -webkit-clip-path: polygon(100% 100%, calc(100% - 7px) 0, 1px 10px, 0 calc(100% - 4px));
+    clip-path: polygon(100% 100%, calc(100% - 7px) 0, 1px 10px, 0 calc(100% - 4px));
+}
+.person{
+    position: absolute;
+    right: 0;
+}
+/* .accs__inner .lined h4::after{
+ content: "";
+ display: block;
+ width: 0;
+ height: 2px;
+ background: #fff;
+ transition: width .3s;
+}
+.accs__inner .lined h4:hover::after{
+ width: 100%;
+ transition: width .3s;
+}﻿
+ */
